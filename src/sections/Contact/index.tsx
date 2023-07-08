@@ -6,7 +6,7 @@ import { Container, Wrapper } from './styles'
 
 export function Contact() {
   return (
-    <Container>
+    <Container id="contact">
       <Wrapper className="maxWidthPage">
         <div>
           <h1>

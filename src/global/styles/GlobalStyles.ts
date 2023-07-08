@@ -9,6 +9,10 @@ export const GlobalStyles = createGlobalStyle`
     font-family: 'DM Sans', sans-serif;
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
     -webkit-font-smoothing: antialiased;
   }

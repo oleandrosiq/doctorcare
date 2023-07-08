@@ -40,8 +40,9 @@ export function Header() {
             <a href="/" className="active">
               Início
             </a>
-            <a href="/">Serviços</a>
-            <a href="/">Sobre</a>
+            <a href="#services">Serviços</a>
+            <a href="#about">Sobre</a>
+            <a href="#contact">Contato</a>
           </nav>
 
           <button type="button">Agende sua consulta</button>
@@ -85,10 +86,13 @@ export function Header() {
                 </a>
               </li>
               <li>
-                <a href="/">Serviços</a>
+                <a href="#services">Serviços</a>
               </li>
               <li>
-                <a href="/">Sobre</a>
+                <a href="#about">Sobre</a>
+              </li>
+              <li>
+                <a href="#contact">Contato</a>
               </li>
             </ul>
           </nav>

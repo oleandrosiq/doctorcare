@@ -3,7 +3,7 @@ import { Container, Wrapper } from './styles'
 
 export function About() {
   return (
-    <Container>
+    <Container id="about">
       <Wrapper className="maxWidthPage">
         <img
           src={DoctorHoldingImg}
